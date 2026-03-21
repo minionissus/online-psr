@@ -1,0 +1,25 @@
+{
+  "name": "online-psr",
+  "version": "1.0.0",
+  "description": "Online paper scissors rock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minionissus/online-psr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/minionissus/online-psr/issues"
+  },
+  "homepage": "https://github.com/minionissus/online-psr#readme",
+  "dependencies": {
+    "ejs": "^5.0.1",
+    "express": "^5.2.1"
+  }
+}
