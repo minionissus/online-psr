@@ -4,8 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paper Scissors Rock</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Paper Scissors Rock</h1>
+    <div class="main">
+        <h1>Paper Scissors Rock</h1>
+        <h3>What is your nickname?</h3>
+        <div class="form">
+            <form action="/join" method="post">
+                <input type="text" name="nickname" placeholder="Nickname" required>
+                <button type="submit">Join Game</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
